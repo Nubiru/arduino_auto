@@ -1,8 +1,8 @@
 # Coche Autónomo Arduino con Red Neuronal
 
 ## Integrantes del Equipo
-- Gabriel Osemberg - [Colab](https://colab.research.google.com/drive/1bfZeigmpn53fXfVV7x_setYsHZ7hpEtG#scrollTo=9BaLTKenQrQZ)
-- Mariano Capella - [Colab](https://colab.research.google.com/drive/1eboG6E3a6TOkrEtj2H-AINEdRsHhfTAo#scrollTo=GffuaCAYU5v8)
+- Gabriel Osemberg - [Colab](https://colab.research.google.com/drive/1bfZeigmpn53fXfVV7x_setYsHZ7hpEtG#scrollTo=9BaLTKenQrQZ) [Wokwi](https://wokwi.com/projects/447443477537977345)
+- Mariano Capella - [Colab](https://colab.research.google.com/drive/1eboG6E3a6TOkrEtj2H-AINEdRsHhfTAo#scrollTo=GffuaCAYU5v8) [Wokwi](https://wokwi.com/projects/446822632128479233)
 
 ## Índice
 1. [Resumen del Proyecto](#resumen-del-proyecto)
