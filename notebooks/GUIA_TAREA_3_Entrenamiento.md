@@ -1,6 +1,7 @@
 # Guía para Tarea 3: Entrenar la Red Neuronal
 
 ## Objetivo
+
 Ejecutar el notebook de Colab para entrenar la red neuronal original [2,3,4] del proyecto base, comprender el proceso y documentar los resultados.
 
 ---
@@ -10,11 +11,13 @@ Ejecutar el notebook de Colab para entrenar la red neuronal original [2,3,4] del
 ### 1. Preparación del Notebook
 
 #### Opción A: Usar Notebook Base
+
 1. Ir al [notebook original](https://github.com/jbagnato/machine-learning/blob/master/Red_Neuronal_coche.ipynb)
 2. Hacer clic en "Open in Colab"
 3. Hacer una copia: `Archivo > Guardar una copia en Drive`
 
 #### Opción B: Crear Notebook Nuevo
+
 1. Ir a [Google Colab](https://colab.research.google.com/)
 2. Crear nuevo notebook: `Archivo > Nuevo cuaderno`
 3. Copiar el código de referencia
@@ -342,8 +345,8 @@ print("💾 Pesos guardados en 'pesos_entrenados_original.txt'")
 
 Al finalizar, debes tener:
 
-- [ ] Notebook ejecutado completamente sin errores
-- [ ] Gráfica de error vs épocas generada y guardada
+- [x] Notebook ejecutado completamente sin errores
+- [x] Gráfica de error vs épocas generada y guardada
 - [ ] Error final < 0.01 (idealmente < 0.001)
 - [ ] Precisión en predicciones = 100%
 - [ ] Matrices de pesos copiadas y guardadas
@@ -368,22 +371,30 @@ Para el README y la wiki, incluir:
 ## Problemas Comunes y Soluciones
 
 ### Problema 1: Error no converge (se queda alto)
+
 **Solución**:
+
 - Aumentar épocas a 60000-80000
 - Ajustar learning_rate a 0.05
 
 ### Problema 2: Error oscila mucho
+
 **Solución**:
+
 - Reducir learning_rate a 0.01-0.02
 - Verificar que el dataset esté correctamente normalizado
 
 ### Problema 3: Predicciones incorrectas
+
 **Solución**:
+
 - Verificar que la función de redondeo use `abs()` antes del `round()`
 - Asegurar que el BIAS se esté agregando correctamente
 
 ### Problema 4: Shapes incompatibles
+
 **Solución**:
+
 - Verificar que X tenga shape (9, 2)
 - Verificar que y tenga shape (9, 4)
 - Revisar que los índices de las matrices sean correctos
