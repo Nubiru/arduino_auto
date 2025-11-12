@@ -1,0 +1,210 @@
+ESTRUCTURA DEL PROYECTO - COCHE AUTÓNOMO ARDUINO
+================================================
+
+arduino_auto/
+│
+├── README.md ............................ Documentación principal completa
+├── PROXIMOS_PASOS.md .................... Guía de qué hacer a continuación
+├── ESTRUCTURA_PROYECTO.txt .............. Este archivo (referencia rápida)
+├── tarea.txt ............................ Enunciado original del profesor
+│
+├── arduino/ ............................. Código para Arduino
+│   ├── codigo_original/
+│   │   └── TEMPLATE_coche_original.ino .. Template red [2,3,4] con comentarios
+│   │
+│   └── codigo_modificado/
+│       └── TEMPLATE_coche_expandido.ino . Template red [4,6,5] con comentarios
+│
+├── docs/ ................................ Análisis y documentación (Tareas 1 y 2)
+│   ├── Arquitecturas_Observadas.md ...... Análisis completo de arquitecturas
+│   ├── Enfoques_Resolucion_Problemas.md . Análisis de enfoques de resolución
+│   └── imagenes/ ........................ (crear cuando tengas gráficas)
+│       └── graficas_entrenamiento/
+│
+├── notebooks/ ........................... Guías para entrenamiento
+│   ├── GUIA_TAREA_3_Entrenamiento.md .... Guía detallada Tarea 3 (red original)
+│   └── GUIA_TAREA_4_Expansion.md ........ Guía detallada Tarea 4 (red expandida)
+│
+├── wiki/ ................................ Páginas para GitHub Wiki
+│   ├── Home.md .......................... Página principal de la wiki
+│   ├── _Sidebar.md ...................... Barra de navegación lateral
+│   └── _Footer.md ....................... Pie de página con referencias
+│
+└── wokwi/ ............................... Recursos de simulación
+    ├── links_simulaciones.txt ........... Links y notas de simulaciones
+    └── capturas/ ........................ (crear cuando tengas capturas)
+
+
+ARCHIVOS CLAVE
+==============
+
+📖 EMPEZAR AQUÍ:
+   → PROXIMOS_PASOS.md .................. Lista completa de tareas pendientes
+
+📚 DOCUMENTACIÓN COMPLETA:
+   → README.md .......................... Todo el proyecto documentado
+
+🔬 ENTRENAR MODELO:
+   → notebooks/GUIA_TAREA_3_Entrenamiento.md
+   → notebooks/GUIA_TAREA_4_Expansion.md
+
+💻 CÓDIGO ARDUINO:
+   → arduino/codigo_original/TEMPLATE_coche_original.ino
+   → arduino/codigo_modificado/TEMPLATE_coche_expandido.ino
+
+📋 ANÁLISIS (YA COMPLETADOS):
+   → docs/Arquitecturas_Observadas.md
+   → docs/Enfoques_Resolucion_Problemas.md
+
+
+ESTADO ACTUAL
+=============
+
+✅ COMPLETADO:
+   - Estructura de carpetas creada
+   - README.md principal con documentación completa
+   - Wiki (Home, Sidebar, Footer)
+   - Análisis de Arquitecturas (Tarea 1)
+   - Análisis de Enfoques (Tarea 2)
+   - Guías detalladas para Tareas 3 y 4
+   - Templates de código Arduino
+   - Git inicializado con remote configurado
+
+⏳ POR HACER (TU TRABAJO):
+   - Tarea 3: Entrenar red [2,3,4] en Colab
+   - Tarea 4: Expandir red a [4,6,5] con nuevos sensores
+   - Implementar código Arduino con pesos entrenados
+   - Crear simulaciones Wokwi
+   - Completar secciones del README con tus resultados
+   - Agregar gráficas y capturas
+   - Hacer push a GitHub
+
+
+ARCHIVOS QUE CREARÁS
+====================
+
+Cuando completes las tareas, generarás estos archivos:
+
+📊 Gráficas de Entrenamiento:
+   docs/imagenes/graficas_entrenamiento/
+   ├── [tu_nombre]_grafica_tarea3.png
+   └── [tu_nombre]_grafica_tarea4.png
+
+💾 Pesos Entrenados:
+   arduino/codigo_original/
+   └── pesos_[tu_nombre]_original.txt
+
+   arduino/codigo_modificado/
+   ├── [tu_nombre]_coche_expandido.ino
+   └── pesos_[tu_nombre]_expandido.txt
+
+📸 Capturas de Wokwi:
+   wokwi/capturas/
+   ├── [tu_nombre]_circuito.png
+   └── [tu_nombre]_funcionando.png
+
+
+PRÓXIMOS PASOS RÁPIDOS
+=======================
+
+1. Lee PROXIMOS_PASOS.md para entender el flujo completo
+
+2. TAREA 3 (2-3 horas):
+   - Abre notebooks/GUIA_TAREA_3_Entrenamiento.md
+   - Sigue paso a paso en tu Colab
+   - Guarda resultados y gráficas
+
+3. TAREA 4 (4-6 horas):
+   - Abre notebooks/GUIA_TAREA_4_Expansion.md
+   - Decide tus sensores/actuadores (diferente a tu compañero)
+   - Diseña tabla de verdad expandida
+   - Entrena red [4,6,5]
+   - Implementa en Arduino
+   - Simula en Wokwi
+
+4. ACTUALIZAR README.md:
+   - Completa tu sección (5.1 o 5.2)
+   - Agrega tus resultados, links, gráficas
+
+5. GIT PUSH (tú lo manejas):
+   - git add .
+   - git commit -m "..."
+   - git push -u origin main
+
+
+LINKS ÚTILES
+============
+
+📂 GitHub Repo:
+   https://github.com/Nubiru/arduino_auto
+
+📓 Notebooks Colab:
+   Gabriel:  https://colab.research.google.com/drive/1bfZeigmpn53fXfVV7x_setYsHZ7hpEtG
+   Mariano:  https://colab.research.google.com/drive/1eboG6E3a6TOkrEtj2H-AINEdRsHhfTAo
+
+📖 Proyecto Base:
+   Artículo: https://www.aprendemachinelearning.com/programa-un-coche-arduino-con-inteligencia-artificial/
+   Notebook: https://github.com/jbagnato/machine-learning/blob/master/Red_Neuronal_coche.ipynb
+   Wokwi:    https://wokwi.com/projects/446073684209624065
+
+🌐 Wokwi Simulator:
+   https://wokwi.com
+
+
+COORDINACIÓN DEL EQUIPO
+========================
+
+Gabriel Osemberg:
+   - Sensores: Velocidad + IR Borde
+   - Actuador: Buzzer
+   - Colab: Ya tienes tu notebook
+
+Mariano Capella:
+   - Sensores: Luz LDR + Ultrasónico Lateral
+   - Actuador: LED Estado
+   - Colab: Ya tienes tu notebook
+
+⚠️ IMPORTANTE: Usen sensores DIFERENTES para demostrar versatilidad
+
+
+AYUDA Y SOPORTE
+===============
+
+¿Dudas técnicas?
+   → Lee las guías en notebooks/
+   → Revisa comentarios en templates de Arduino
+   → Consulta el README.md
+
+¿Problemas de entrenamiento?
+   → Sección "Problemas Comunes" en las guías
+   → Prueba ajustar learning_rate o épocas
+
+¿Código Arduino no compila?
+   → Verifica dimensiones de arrays
+   → Revisa que copiaste los pesos correctamente
+   → Considera usar Arduino Mega si falta memoria
+
+
+CRITERIOS DE ÉXITO
+==================
+
+Tu proyecto estará COMPLETO cuando:
+
+✅ Red original entrenada (error < 0.01, precisión 100%)
+✅ Red expandida entrenada (error < 0.01, precisión ≥ 95%)
+✅ Código Arduino compila sin errores
+✅ Simulación Wokwi funciona
+✅ README.md completado con tus resultados
+✅ Gráficas y capturas incluidas
+✅ Todo subido a GitHub
+
+Entonces tendrás un proyecto profesional para tu portafolio! 🎓🚀
+
+
+═══════════════════════════════════════════════════════════════
+
+Generado: 2025-11-12
+Curso: Metodologías de Resolución de Problemas y Arquitectura
+Equipo: Gabriel Osemberg, Mariano Capella
+
+¡Éxito con tu proyecto!
