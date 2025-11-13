@@ -687,6 +687,3 @@ Girar derecha
 Girar izquierda
 Retroceder
 Detenerse (nueva)
-
-Enlace de wokwoi para modelo original de Arduino:
-[text](https://wokwi.com/projects/446822632128479233)
