@@ -1,0 +1,20 @@
+Implementar la aplicacion en Arduino Uno en Wokwi del proyecto en el Articulo
+
+1- Hacer un resumen de las arquitecturas observadas en el proyecto
+
+2- Mencionar los enfoques de resolución de problemas aplicados
+
+3- Ejecutar el colab para entrenar la red neuronal
+
+4- Simular 2 entradas nuevas y 1 salida más. Modificar y ajustar nuevamente la red neuronal. Por cada miembro del equipo generar una nueva tabla de verdad y desplegarla nuevamente.
+
+5- Confeccionar github con el código y en el Readme resumir todo lo solicitado.
+
+
+
+LINK GITHUB: https://github.com/jbagnato/machine-learning/blob/master/Red_Neuronal_coche.ipynb
+
+LINK WOKWI https://wokwi.com/projects/446073684209624065
+
+LINK ARTICULO https://www.aprendemachinelearning.com/programa-un-coche-arduino-con-inteligencia-artificial/
+

@@ -1,0 +1,144 @@
+# LINKS DE SIMULACIONES WOKWI
+
+## Proyecto Base Original
+Simulación de referencia del proyecto base:
+https://wokwi.com/projects/446073684209624065
+
+Nota: Esta simulación base solo muestra LEDs alternantes, no incluye
+la implementación completa de la red neuronal.
+
+---
+
+## Nuestras Simulaciones (Tarea 4)
+
+### Gabriel Osemberg - Versión Expandida [4,6,5]
+Sensores agregados: Velocidad + Sensor IR Borde
+Actuador agregado: Buzzer de alerta
+
+Link: [PENDIENTE - Agregar después de crear simulación]
+Fecha: [FECHA]
+Observaciones:
+- [Agregar notas sobre comportamiento]
+- [Problemas encontrados]
+- [Soluciones aplicadas]
+
+---
+
+### Mariano Capella - Versión Expandida [4,6,5]
+Sensores agregados: Luz LDR + Segundo Ultrasónico Lateral
+Actuador agregado: LED de estado
+
+Link: [PENDIENTE - Agregar después de crear simulación]
+Fecha: [FECHA]
+Observaciones:
+- [Agregar notas sobre comportamiento]
+- [Problemas encontrados]
+- [Soluciones aplicadas]
+
+---
+
+## Instrucciones para Crear Simulación en Wokwi
+
+1. Ir a https://wokwi.com
+2. Crear nuevo proyecto: "New Project" → "Arduino Uno"
+3. Agregar componentes necesarios:
+   - Arduino Uno
+   - L298N Motor Driver Module
+   - 4x DC Motor
+   - Servo Motor (SG90)
+   - Ultrasonic Sensor (HC-SR04)
+   - [Componentes adicionales según tu versión]
+
+4. Conectar según diagrama:
+   - Motores al L298N
+   - L298N pines IN1-IN4 a Arduino pines 2-5
+   - L298N pines ENA, ENB a Arduino pines 6-7 (PWM)
+   - Sensor ultrasónico: TRIG → pin 12, ECHO → pin 11
+   - Servo: Signal → pin 9
+   - [Tus componentes adicionales]
+
+5. Pegar código Arduino (con pesos entrenados)
+
+6. Ejecutar simulación y probar
+
+7. Guardar y copiar el link compartido
+
+8. Agregar link aquí y en el README.md
+
+---
+
+## Componentes Disponibles en Wokwi
+
+Para implementar nuevas entradas/salidas, Wokwi tiene disponibles:
+
+✅ Sensores:
+- HC-SR04 Ultrasonic Sensor
+- PIR Motion Sensor
+- DHT22 Temperature & Humidity Sensor
+- Photoresistor (LDR)
+- Potentiometer (para simular sensores analógicos)
+- Push buttons
+
+✅ Actuadores:
+- Buzzer (Piezo)
+- LEDs (varios colores)
+- Servo motors
+- DC motors
+- RGB LEDs
+
+⚠️ Limitaciones:
+- No hay sensor IR de borde específico → Simular con potenciómetro
+- No hay acelerómetro completo → Simular entrada o documentar que requiere hardware real
+- Memoria limitada en simulación, igual que Arduino físico
+
+---
+
+## Notas de Simulación
+
+### Diferencias entre Simulación y Hardware Real
+
+1. **Sensores**:
+   - En simulación, algunos sensores deben ser simulados con potenciómetros
+   - Valores más "limpios" sin ruido electrónico
+
+2. **Motores**:
+   - Visualización simplificada del movimiento
+   - No hay inercia física real
+
+3. **Timing**:
+   - Puede ser más lento o rápido que hardware real
+   - depende de la carga de la simulación
+
+4. **Memoria**:
+   - Wokwi simula correctamente las limitaciones de memoria de Arduino
+   - Si compila en Wokwi, debería funcionar en hardware real
+
+### Consejos para Buenas Simulaciones
+
+✓ Agregar componentes visuales (LEDs) para debugging
+✓ Usar Serial Monitor para ver valores de sensores y decisiones
+✓ Probar escenarios extremos (obstáculos muy cerca, ángulos límite)
+✓ Verificar que todos los actuadores respondan correctamente
+✓ Documentar comportamiento observado con capturas de pantalla
+
+---
+
+## Capturas de Pantalla
+
+Las capturas de simulación deben guardarse en: wokwi/capturas/
+
+Incluir:
+- Vista general del circuito
+- Código cargado
+- Serial Monitor mostrando datos
+- Comportamiento en diferentes escenarios
+
+Formato sugerido de nombres:
+- [nombre]_circuito.png
+- [nombre]_codigo.png
+- [nombre]_funcionando.png
+- [nombre]_serial.png
+
+---
+
+Última actualización: [FECHA AUTOMÁTICA]
