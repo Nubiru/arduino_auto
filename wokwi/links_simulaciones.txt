@@ -15,7 +15,7 @@ la implementación completa de la red neuronal.
 Sensores agregados: Velocidad + Sensor IR Borde
 Actuador agregado: Buzzer de alerta
 
-Link: [PENDIENTE - Agregar después de crear simulación]
+Link: [https://wokwi.com/projects/447443477537977345]
 Fecha: [FECHA]
 Observaciones:
 - [Agregar notas sobre comportamiento]
@@ -28,7 +28,7 @@ Observaciones:
 Sensores agregados: Luz LDR + Segundo Ultrasónico Lateral
 Actuador agregado: LED de estado
 
-Link: [PENDIENTE - Agregar después de crear simulación]
+Link: [https://wokwi.com/projects/446822632128479233]
 Fecha: [FECHA]
 Observaciones:
 - [Agregar notas sobre comportamiento]
