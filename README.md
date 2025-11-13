@@ -655,3 +655,64 @@ arduino_auto/
 **Última actualización**: [Fecha Automática]
 
 Para más información, consultar la [Wiki del Proyecto](../../wiki).
+
+TABLAS DE VERDAD:
+MARIANO CAPELLA
+
+Modelo original — Red neuronal con 2 entradas y 4 salidas
+
+| Nº | Entrada 1 | Entrada 2 | Avanzar | Girar der. | Girar izq. | Retroceder |
+| -- | --------- | --------- | ------- | ---------- | ---------- | ---------- |
+| 1  | -1        | 0         | 1       | 0          | 0          | 1          |
+| 2  | -1        | 1         | 1       | 0          | 0          | 1          |
+| 3  | -1        | -1        | 1       | 0          | 0          | 1          |
+| 4  | 0         | -1        | 0       | 1          | 0          | 1          |
+| 5  | 0         | 1         | 1       | 0          | 1          | 0          |
+| 6  | 0         | 0         | 1       | 0          | 0          | 1          |
+| 7  | 1         | 1         | 0       | 1          | 1          | 0          |
+| 8  | 1         | -1        | 0       | 1          | 1          | 0          |
+| 9  | 1         | 0         | 0       | 1          | 1          | 0          |
+
+
+Entradas:
+Entrada 1 → Sensor izquierdo (-1, 0, 1)
+Entrada 2 → Sensor derecho (-1, 0, 1)
+
+Salidas (acciones del robot):
+Avanzar
+Girar derecha
+Girar izquierda
+Retroceder
+
+-------------------------------------------------------------------------------
+
+Modelo modificado — Red neuronal con 4 entradas y 5 salidas
+
+| Nº | Entrada 1 | Entrada 2 | Avanzar | Girar der. | Girar izq. | Retroceder |
+| -- | --------- | --------- | ------- | ---------- | ---------- | ---------- |
+| 1  | -1        | 0         | 1       | 0          | 0          | 1          |
+| 2  | -1        | 1         | 1       | 0          | 0          | 1          |
+| 3  | -1        | -1        | 1       | 0          | 0          | 1          |
+| 4  | 0         | -1        | 0       | 1          | 0          | 1          |
+| 5  | 0         | 1         | 1       | 0          | 1          | 0          |
+| 6  | 0         | 0         | 1       | 0          | 0          | 1          |
+| 7  | 1         | 1         | 0       | 1          | 1          | 0          |
+| 8  | 1         | -1        | 0       | 1          | 1          | 0          |
+| 9  | 1         | 0         | 0       | 1          | 1          | 0          |
+
+Entradas:
+Sensor izquierdo
+Sensor derecho
+Sensor trasero (nueva)
+Sensor superior (nueva)
+
+Salidas (acciones):
+
+Avanzar
+Girar derecha
+Girar izquierda
+Retroceder
+Detenerse (nueva)
+
+Enlace de wokwoi para modelo original de Arduino:
+[text](https://wokwi.com/projects/446822632128479233)
